@@ -1,4 +1,9 @@
 /*Global*/
+*{
+    margin: 0;
+    padding:0;
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -10,6 +15,7 @@ ul{
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
 }
 
 header{
@@ -40,22 +46,32 @@ header{
 
 .head{
     display: block;
+    margin-top: 20px;
 }
 
 
 /*search*/
 .search h1{
-    padding-top:150px;
+    display: inline;
+    
     text-align: center;
-    font-size: 80px;
+    font-size: 90px;
+    
+}
+
+.search .logo{
+    padding-top:180px;
+    text-align: center;
+    
 }
 
 
 .inp{
     display: block;
     margin: auto;
-    width:40%;
-    height:45px;
+    margin-top: 50px;
+    width:35%;
+    height:50px;
     border: 1px solid #dddddd;
     border-radius: 50px;
     
@@ -73,6 +89,8 @@ header{
     font-size: 15px;
     padding:10px 25px;
     margin-left: 10px;
+    border:1px solid #ffffff;
+    border-radius: 5px;
 
 }
 
@@ -80,12 +98,76 @@ header{
 
 .languages ul{ 
     display: inline;
+    padding: 0;
+    
 }
 
 .languages li{
     display: inline;
+    padding:5px;
 }
 
 .languages{
     text-align: center;
+    margin-top: 40px;
+}
+
+.foot{
+    position: absolute;
+    width: 100%;
+    margin-left: 0px;
+    bottom: 0px;
+    height: 40px;
+    background-color:#eeeeee;
+    color: #555555;
+    padding-top: 30px;
+}
+
+.foot .about-a{
+    display: inline-block;
+    float: left;
+    padding-left: 10px;
+}
+
+.foot .about-b{
+    display: inline-block;
+    float: right;
+    padding-right: 10px;
+}
+
+
+
+.foot li{
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.languages li{
+    color:blue;
+}
+
+
+.buttons input:hover{
+    background-color:#ffffff;
+    border:1px solid #cccccc;
+}
+
+/*G colors*/
+.gblue{
+    color:#4285F4;
+}
+
+.gred{
+    color:#DB4437;
+}
+
+
+.gyellow{
+    color:#F4B400;
+}
+
+.ggreen{
+    color:#0F9D58;
 }
