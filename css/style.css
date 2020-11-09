@@ -75,6 +75,7 @@ header{
     height:50px;
     border: 1px solid #dddddd;
     border-radius: 50px;
+    padding-left: 30px;
     
 }
 
@@ -178,4 +179,14 @@ header{
 
 .ggreen{
     color:#0F9D58;
+}
+
+.languages>ul>button{
+    border: 0px;
+    background-color: white;
+    color:blue;
+}
+
+.languages>ul>button:hover{
+    text-decoration: underline;
 }
